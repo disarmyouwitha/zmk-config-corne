@@ -13,6 +13,10 @@
         quick-release;
 };
 
+&caps_word {
+    continue-list = <UNDERSCORE MINUS BACKSPACE>;
+};
+
 / {
         behaviors {
             ht: hold_tap {

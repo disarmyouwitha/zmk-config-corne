@@ -9,6 +9,11 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+        &sk {
+                release-after-ms = <2000>;
+                quick-release;
+        };
+
         behaviors {
             ht: hold_tap {
                 compatible = "zmk,behavior-hold-tap";

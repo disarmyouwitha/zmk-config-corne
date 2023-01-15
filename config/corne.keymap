@@ -46,9 +46,9 @@
 
                 numpad {
                         bindings = <
-   &bt BT_CLR   &none         &none    &kp UP    &kp C_BRI_DN  &kp C_BRI_UP             &kp PLUS  &kp N7 &kp N8 &kp N9 &none &kp BSPC
-   &bt BT_SEL 0 &none         &kp LEFT &kp DOWN  &kp RIGHT     &none                    &kp MINUS &kp N4 &kp N5 &kp N6 &none &kp RET
-   &bt BT_SEL 1 &kp LC(LG(Q)) &none    &none     &kp C_VOL_DN  &kp C_VOL_UP             &kp EQUAL &kp N1 &kp N2 &kp N3 &kp DOT &none
+   &bt BT_CLR   &kp C_BRI_DN &kp C_BRI_UP &kp UP    &none         &none             &kp PLUS  &kp N7 &kp N8 &kp N9 &none &kp BSPC
+   &bt BT_SEL 0 &none        &kp LEFT     &kp DOWN  &kp RIGHT     &none             &kp MINUS &kp N4 &kp N5 &kp N6 &none &kp RET
+   &bt BT_SEL 1 &kp C_VOL_DN &kp C_VOL_UP &none     &kp LC(LG(Q)) &none             &kp EQUAL &kp N1 &kp N2 &kp N3 &kp DOT &none
         &kp LCMD &none &kp BSPC                                                                 &kp SPACE &kp N0 &kp N0
                         >;
                 };

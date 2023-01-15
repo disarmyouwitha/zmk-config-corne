@@ -37,10 +37,10 @@
 
                 default_layer { 
                         bindings = <
-   &kp TAB    &ht LBKT Q     &kp W       &ht LBRC E  &ht F5 R    &ht SQT T                 &ht UNDER Y &ht AMPS U  &ht STAR I &kp O       &ht BSPC P    &kp BSPC
-   &caps_word &ht LC(A) A    &ht LC(S) S &ht LPAR D  &ht LC(F) F &ht DQT G                 &ht MINUS H &ht EXCL J  &ht HASH K &ht TILDE L &ht RET SEMI  &kp RET
-   &kp LSHFT  &ht LC(Z) Z    &ht LC(X) X &ht LC(C) C &ht LC(V) V &ht LALT B                &ht EQUAL N &ht AT   M  &kp COMMA  &kp DOT     &ht BSLH FSLH &kp BSLH
-        &kp LCMD &mo 1 &kp BSPC                                                                         &kp SPACE &mo 2 &sk LSHIFT
+   &ht ESC TAB &ht LBKT Q     &kp W       &ht LBRC E  &ht F5 R    &ht SQT T                 &ht UNDER Y &ht AMPS U  &ht STAR I &kp O       &ht BSPC P    &kp BSPC
+   &caps_word  &ht LC(A) A    &ht LC(S) S &ht LPAR D  &ht LC(F) F &ht DQT G                 &ht MINUS H &ht EXCL J  &ht HASH K &ht TILDE L &ht RET SEMI  &kp RET
+   &kp LSHFT   &ht LC(Z) Z    &ht LC(X) X &ht LC(C) C &ht LC(V) V &ht LALT B                &ht EQUAL N &ht AT   M  &kp COMMA  &kp DOT     &ht BSLH FSLH &kp BSLH
+        &kp LCMD &mo 1 &ht SPACE BSPC                                                                         &kp SPACE &mo 2 &sk LSHIFT
                         >;
                 };
 

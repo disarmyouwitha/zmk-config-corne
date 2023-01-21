@@ -46,7 +46,7 @@
 
                 numpad {
                         bindings = <
-   &bt BT_CLR   &kp C_BRI_DN &kp C_BRI_UP &kp UP    &none         &to 2                         &kp PLUS  &kp N7 &kp N8 &kp N9 &none   &kp BSPC
+   &bt BT_CLR   &kp C_BRI_DN &kp C_BRI_UP &kp UP    &none         &to 3                         &kp PLUS  &kp N7 &kp N8 &kp N9 &none   &kp BSPC
    &bt BT_SEL 0 &none        &kp LEFT     &kp DOWN  &kp RIGHT     &none                         &kp MINUS &kp N4 &kp N5 &kp N6 &none   &reset
    &bt BT_SEL 1 &kp C_VOL_DN &kp C_VOL_UP &none     &kp SPACE     &kp LC(LG(Q))                 &kp EQUAL &kp N1 &kp N2 &kp N3 &kp DOT &bootloader
         &kp LCMD &none &kp BSPC                                                                         &kp SPACE &kp N0 &kp N0

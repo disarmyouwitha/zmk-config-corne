@@ -32,14 +32,14 @@
             };
         };
 
-        keymap {
+        keymap { 
                 compatible = "zmk,keymap";
 
                 default_layer { 
                         bindings = <
-   &ht ESC TAB &ht LBKT Q     &ht RBKT W  &ht LBRC E  &ht F5 R    &ht SQT T                 &ht MINUS Y &ht AMPS U  &ht STAR I &kp O       &ht BSPC P    &kp BSPC
-   &caps_word  &ht LC(A) A    &ht LC(S) S &ht LPAR D  &ht LC(F) F &ht DQT G                 &ht UNDER H &ht EXCL J  &ht HASH K &ht TILDE L &ht RET SEMI  &kp RET
-   &sk LSHIFT  &ht LC(Z) Z    &ht LC(X) X &ht LC(C) C &ht LC(V) V &ht LALT B                &ht EQUAL N &ht AT   M  &kp COMMA  &kp DOT     &ht BSLH FSLH &kp BSLH
+   &ht ESC TAB &ht LBKT  Q &ht RBKT  W &ht LBRC  E &ht RBRC  R &ht SQT  T                &ht MINUS Y &ht AMPS U  &ht STAR I     &kp O         &ht BSPC P    &kp BSPC
+   &caps_word  &ht LC(A) A &ht LC(S) S &ht LPAR  D &ht RPAR  F &ht DQT  G                &ht UNDER H &ht EXCL J  &ht HASH K     &ht TILDE L   &ht RET  SEMI &kp RET
+   &sk LSHIFT  &ht LC(Z) Z &ht LC(X) X &ht LC(C) C &ht LC(V) V &ht LALT B                &ht EQUAL N &ht AT   M  &ht DLLR COMMA &ht CARET DOT &ht BSLH FSLH &kp BSLH
         &kp LCMD &mo 1 &kp BSPC                                                                         &kp SPACE &mo 2 &sk LSHIFT
                         >;
                 };
@@ -55,9 +55,9 @@
 
                 symbols {
                         bindings = <
-   &kp ESC     &kp LBKT  &kp RBKT &kp LBRC &kp RBRC &kp SQT                   &kp PLUS  &kp AMPS &kp STAR  &kp C_BRI_DN &kp C_BRI_UP &kp DEL
-   &reset      &kp PRCNT &kp DLLR &kp LPAR &kp RPAR &kp DQT                   &kp MINUS &kp EXCL &kp HASH  &kp TILDE    &none        &kp PSCRN
-   &bootloader &kp BSLH  &kp PIPE &kp LT   &kp GT   &kp GRAVE                 &kp EQUAL &kp AT   &kp CARET &kp C_VOL_DN &kp C_VOL_UP &kp LC(LA(DEL))
+   &kp ESC     &kp LBKT  &kp RBKT  &kp LBRC &kp RBRC &kp SQT                   &kp PLUS  &kp AMPS &kp STAR &kp C_BRI_DN &kp C_BRI_UP &kp DEL
+   &reset      &kp CARET &kp PRCNT &kp LPAR &kp RPAR &kp DQT                   &kp MINUS &kp EXCL &kp HASH &kp TILDE    &none        &kp PSCRN
+   &bootloader &kp BSLH  &kp PIPE  &kp LT   &kp GT   &kp GRAVE                 &kp EQUAL &kp AT   &kp DLLR &kp C_VOL_DN &kp C_VOL_UP &kp LC(LA(DEL))
         &kp LGUI &none &kp BSPC                                                               &kp SPACE &none &none
                         >;
                 };

@@ -37,10 +37,10 @@
 
                 default_layer { 
                         bindings = <
-   &none &ht TAB   Q &ht RBKT  W &ht LBRC  E &ht RBRC  R &ht SQT   T                &ht MINUS Y &ht AMPS U  &ht STAR I     &ht LG(F) O   &ht BSPC P    &none
-   &none &ht LG(A) A &ht LG(S) S &ht LPAR  D &ht RPAR  F &ht DQT   G                &ht UNDER H &ht EXCL J  &ht HASH K     &ht TILDE L   &ht RET  SEMI &none
-   &none &ht LG(Z) Z &ht LG(X) X &ht LG(C) C &ht LG(V) V &ht LCTRL B                &ht EQUAL N &ht AT   M  &ht DLLR COMMA &ht CARET DOT &ht BSLH FSLH &none
-        &kp LCMD &mo 1 &kp BSPC                                                                         &kp SPACE &mo 2 &sk LSHIFT
+   &none &ht TAB   Q &ht RBKT  W &ht LBRC  E &ht RBRC  R &ht SQT   T                &ht MINUS Y &ht AMPS U  &ht STAR I     &ht LC(F) O   &ht BSPC P    &none
+   &none &ht LC(A) A &ht LC(S) S &ht LPAR  D &ht RPAR  F &ht DQT   G                &ht UNDER H &ht EXCL J  &ht HASH K     &ht TILDE L   &ht SEMI RET  &none
+   &none &ht LC(Z) Z &ht LC(X) X &ht LC(C) C &ht LC(V) V &ht LCTRL B                &ht EQUAL N &ht AT   M  &ht DLLR COMMA &ht CARET DOT &ht BSLH FSLH &none
+        &kp LCMD &mo 1 &kp BSPC                                                                         &kp SPACE &sk LSHIFT &mo 2
                         >;
                 };
 
@@ -48,7 +48,7 @@
                         bindings = <
    &none &bt BT_CLR   &none    &kp UP   &none     &none                         &kp PLUS  &kp N7 &kp N8 &kp N9 &kp BSPC &none
    &none &bt BT_SEL 0 &kp LEFT &kp DOWN &kp RIGHT &none                         &kp MINUS &kp N4 &kp N5 &kp N6 &none    &none
-   &none &bt BT_SEL 1 &none    &none    &kp SPACE &kp LC(LG(Q))                 &kp EQUAL &kp N1 &kp N2 &kp N3 &kp DOT  &none
+   &none &bt BT_SEL 1 &none    &none    &kp SPACE &none                         &kp EQUAL &kp N1 &kp N2 &kp N3 &kp DOT  &none
         &to 3 &none &kp BSPC                                                           &kp SPACE &kp N0 &kp N0
                         >;
                 };

@@ -55,7 +55,7 @@
 
                 symbols {
                         bindings = <
-   &none &kp LBKT  &kp RBKT  &kp LBRC &kp RBRC &kp SQT                   &kp PLUS  &kp AMPS &kp STAR &none     &kp DEL         &none
+   &none &kp LBKT  &kp RBKT  &kp LBRC &kp RBRC &kp SQT                   &kp PLUS  &kp AMPS &kp STAR &none     &kp ESC         &none
    &none &kp CARET &kp PRCNT &kp LPAR &kp RPAR &kp DQT                   &kp MINUS &kp EXCL &kp HASH &kp TILDE &kp PSCRN       &none
    &none &kp BSLH  &kp PIPE  &kp LT   &kp GT   &kp GRAVE                 &kp EQUAL &kp AT   &kp DLLR &none     &kp LC(LA(DEL)) &none
         &kp LGUI &none &kp BSPC                                                               &kp SPACE &none &none
